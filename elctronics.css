@@ -1,0 +1,16 @@
+.electronics{
+flex-direction:column;
+width: 100%;
+}
+#electronics1{
+    padding-bottom: 20px;
+}
+#electronics2{
+    padding-bottom: 20px;
+}
+#electronics3{
+    padding-bottom: 20px;
+}
+#electronics4{
+    padding-bottom: 20px;
+}

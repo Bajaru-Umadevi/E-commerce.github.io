@@ -1,0 +1,88 @@
+.fashion{
+    width: 100;
+}
+h2{
+    text-align: center;
+    font-weight: 200;
+}
+#fas1{
+    padding-bottom: 20px;
+}
+#fas2{
+    padding-bottom: 20px;
+}
+#fas3{
+    padding-bottom: 20px;
+}
+.addidas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.addidas img{
+    width: 400px;
+    height: 400px;
+    /* padding:20px 20px; */
+    display: flex;
+   
+}
+.adi1{
+    display: flex;
+}
+.adicard{
+    flex-direction: column;
+}
+.adisub{
+    background-color:orange;
+    padding-top: 0px;
+}
+.puma{
+    flex-direction: column;
+    border-radius: 15px;
+    
+}
+.hand{
+    flex-direction:column;
+}
+.adi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.nyka{
+flex-direction: column;
+
+}
+.levis{
+    flex-direction: column;
+}
+.addidas button{
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+    color: fuchsia;
+}
+.addidas button:hover{
+    background-color: chartreuse;
+    color: coral;
+}
+.puma img{
+    border-radius: 15px 15px 0px 0px;
+}
+.nyka img{
+    border-radius: 15px 15px 0px 0px;
+}
+.levis img{
+    border-radius: 15px 15px 0px 0px;
+}
+.hand img{
+    border-radius: 15px 15px 0px 0px;
+}
+.adi img{
+    border-radius: 15px 15px 0px 0px;
+}
+.cards img{
+    border-radius: 15px 15px 0px 0px;
+}
+

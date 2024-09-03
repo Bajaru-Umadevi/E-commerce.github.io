@@ -1,0 +1,12 @@
+*{
+    background-color: rgb(132, 200, 22);
+}
+.main{
+    padding: 0px 0px 20px 0px;
+}
+.collections{
+    display: flex;
+}
+#s2{
+    flex-direction: row;
+}

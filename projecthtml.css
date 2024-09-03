@@ -1,0 +1,108 @@
+*{
+  margin: 0px;  
+  padding: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+}
+body{
+    background-color: rgb(75, 144, 204);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    background-color:rgb(54, 186, 92) ;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.products{
+    display: flex;
+    padding: 10px;
+    
+}
+.products a{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+}
+.icons img{
+    width: 30px;
+    height: 30px;
+    flex-direction: row;
+    filter: invert(100);
+}
+.search{
+    padding: 20px;
+    flex:1;
+    display: flex;
+}
+input{
+    display: flex;
+    flex-grow: 1;
+}
+.search input{
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px;
+    cursor: pointer;
+
+} 
+.search button{
+    border-radius: 0px 5px 5px 0px;
+    padding: 5px;
+    cursor: pointer;
+}
+.search button:hover{
+    background-color: rgb(222, 93, 18);
+}
+.products a{
+    text-decoration:none;
+}
+.products1{
+    padding: 30px;
+}
+.products a:hover{
+    text-decoration: underline;
+}
+.images a{
+    width: 1200px;
+
+}
+#one{
+    padding-bottom: 20px;
+}
+#two{
+    padding-bottom: 20px;
+}
+#three{
+    padding-bottom: 20px;
+}
+.images{
+    padding-top: 100px;
+}
+.main:hover{
+    background-color: aqua;
+}
+.footer{
+    justify-content: space-evenly;
+    display: flex;
+    padding:50px;
+    background-color: rgb(177, 235, 17);
+}
+li{
+list-style: none;
+}
+footer{
+    padding-top: 20px;
+}
+::placeholder{
+    color: black;
+    font-weight: 300;
+}
+

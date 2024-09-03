@@ -1,0 +1,78 @@
+*{
+    background-color: darksalmon;
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-top: 30px;
+    justify-content: space-around;
+    flex-grow: 50;
+    
+
+}
+#adc{
+    position: absolute;
+    top: 20%;
+    left:50%;
+    padding: 10px;
+    background-color: none;
+}
+#abcde{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    padding: 5px;
+    background-color: cyan;
+    border-radius: 5px;
+}
+.Ultra{
+    display: flex;
+    flex-direction: column;
+}
+    .Ultra:hover{
+    box-shadow: 5px 5px 5px red;
+    transition: transform 0.3s;
+}
+
+.Ultraboot{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Walking{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Stylish{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Running{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.jogging{
+    display: flex;
+    flex-direction: column;
+}
+
+.sports{
+    display: flex;
+    flex-direction: column;
+}
+
+.boots{
+    display: flex;
+    flex-direction: column;
+}
+
+
